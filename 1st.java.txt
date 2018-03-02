@@ -1,0 +1,52 @@
+import java.util.Scanner;
+
+
+public class JavaApplication4 {
+
+   
+    public static void main(String[] args) {
+         double t,j,i;
+         System.out.println("Enter total training hour?");
+        
+        Scanner b = new Scanner(System.in);
+        
+        t=b.nextDouble();
+         System.out.println("Enter total class hour?");
+         
+          Scanner c = new Scanner(System.in);
+          j=c.nextDouble();
+          
+        double k=t/j;
+          System.out.println("total number of classes"+k);
+          
+         System.out.println("list of classes");
+         System.out.println("day1\nday2\nday3\n\day4\nday6\nday7");
+          Scanner m = new Scanner(System.in);
+          i=m.nextDouble();
+          
+          if(i==1){
+              
+             System.out.println("first class");
+          }
+          
+          else if(i==2){
+           System.out.println("2nd class");
+    }
+          else if(i==3){
+           System.out.println("3rd class");}
+         
+           else if(i==4){
+           System.out.println("4th class");}
+           else if(i==5){
+           System.out.println("5th class");}
+           else if(i==6){
+           System.out.println("6th class");}
+           else if(i==7){
+           System.out.println("7th class");}
+           else{
+               
+           System.out.println("none");
+           }
+    
+}
+}
